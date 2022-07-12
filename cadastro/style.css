@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  background-color: #e60014;
+  height: 100px;
+}
+
+.topo h1 {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-left: 25px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo-cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo-cadastro h2 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.titulo-cadastro p {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+#colum {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
